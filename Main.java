@@ -13,15 +13,15 @@ public class Main
     String pet = scan.next(); 
     System.out.println("Instructor: Okay then, think about " + pet + "!" );
     System.out.println("Instructor: Okay! We're gonna jump on 1!");
-    //setting up the top of the countdown,
+    //setting up the top of the countdown.
     skydiveLaunchCountDown(5); 
   }
 
-  //second method with the recursion,
+  //Second method with the recursion,
   public static void skydiveLaunchCountDown(int countdownnumber) 
     {
     if (countdownnumber == 1)
-      {//base case final print statements
+      {//Base case final print statements.
       System.out.println("Instructor: Wooooooh!");
       System.out.println("Me: I thought we were jumping at 1 ahhhhh!");
       System.out.println("You're probably wondering how I got here.");
@@ -29,9 +29,9 @@ public class Main
       }
     else{
       System.out.println(countdownnumber);
-      //This subtracts -1 every time it runs
+      //This subtracts -1 every time it runs.
       countdownnumber--; 
-      //recursion
+      //Recursion.
       skydiveLaunchCountDown(countdownnumber);
         }
     }
